@@ -1,0 +1,193 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 1,
+        "idRef": "ForEachRowConnections`1_1",
+        "hash": "ForEachRowConnections`1_1|DataRow|T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU",
+        "dataType": "System.Data.DataRow, System.Data.Common",
+        "columns": [],
+        "rowExtensionProperties": [
+          {
+            "columnName": "SheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_SheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.GSuite.Properties.UiPath.GSuite",
+          "resourceManagerAssemblyName": "UiPath.GSuite"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataRow1",
+        "hash": "ForEachRowConnections`1_1|DataRow|T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU|M8QgJnMcDYq2DQeuuBU0Jk546eYbnq2FCcwUoYRi4Ss|HT8aFX0uTakdBZzx1gQ7QazRUYM25L1273kAdp3Xng",
+        "assemblyName": "Studio.Generated.TypedDataRow1"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 2,
+        "idRef": "ReadRangeConnections`1_1",
+        "hash": "ReadRangeConnections`1_1|DataTable|T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [],
+        "rowExtensionProperties": [
+          {
+            "columnName": "SheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_SheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.GSuite.Properties.UiPath.GSuite",
+          "resourceManagerAssemblyName": "UiPath.GSuite"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable2",
+        "hash": "ReadRangeConnections`1_1|DataTable|T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU|M8QgJnMcDYq2DQeuuBU0Jk546eYbnq2FCcwUoYRi4Ss|HT8aFX0uTakdBZzx1gQ7QazRUYM25L1273kAdp3Xng",
+        "assemblyName": "Studio.Generated.TypedDataTable2"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 3,
+        "idRef": "ReadRangeConnections`1_2",
+        "hash": "ReadRangeConnections`1_2|DataTable|T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [],
+        "rowExtensionProperties": [
+          {
+            "columnName": "SheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_SheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.GSuite.Properties.UiPath.GSuite",
+          "resourceManagerAssemblyName": "UiPath.GSuite"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable3",
+        "hash": "ReadRangeConnections`1_2|DataTable|T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU|M8QgJnMcDYq2DQeuuBU0Jk546eYbnq2FCcwUoYRi4Ss|HT8aFX0uTakdBZzx1gQ7QazRUYM25L1273kAdp3Xng",
+        "assemblyName": "Studio.Generated.TypedDataTable3"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 4,
+        "idRef": "RowAddedToSheetBottom`1_1",
+        "hash": "RowAddedToSheetBottom`1_1|DataRow|rBhewBNRva9CxAWsIX2esMhf7eoiox3Cv3cssPWr4",
+        "dataType": "System.Data.DataRow, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Timestamp",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Timestamp",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Name",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Name",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Email",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Email",
+            "category": "Simplified"
+          }
+        ],
+        "rowExtensionProperties": [
+          {
+            "columnName": "SheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_SheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [
+          {
+            "parentColumnName": "Timestamp",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Timestamp Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Timestamp",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Timestamp ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Name",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Name Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Name",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Name ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Email",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Email Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Email",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Email ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          }
+        ],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.GSuite.Properties.UiPath.GSuite",
+          "resourceManagerAssemblyName": "UiPath.GSuite"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataRow4",
+        "hash": "RowAddedToSheetBottom`1_1|DataRow|762lCQf4y0cVxpA97hE62p73cWHjTfG6SIKHhEfFoY|M8QgJnMcDYq2DQeuuBU0Jk546eYbnq2FCcwUoYRi4Ss|HT8aFX0uTakdBZzx1gQ7QazRUYM25L1273kAdp3Xng",
+        "assemblyName": "Studio.Generated.TypedDataRow4"
+      }
+    }
+  ]
+}
